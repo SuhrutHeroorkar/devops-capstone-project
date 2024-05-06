@@ -206,4 +206,3 @@ class TestAccountService(TestCase):
         self.assertEqual(
             response.headers.get('Access-Control-Allow-Origin'), '*'
             )
-
